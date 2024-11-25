@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 import "./App.css";
 
-const socket = io("https://warrant-screener-3.onrender.com");
+const socket = io("https://asimo7.github.io");
 
 function App() {
   const [warrants, setWarrants] = useState([]);
